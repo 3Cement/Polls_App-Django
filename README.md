@@ -16,9 +16,8 @@ What things you need to install the software and how to install them
 ```
 1. Create your virtual environment
 2. Clone this repository
-3. Install requirements
-4. Initialize database
-5. Run mylibrary app
+3. Initialize database
+4. Run Polls App
 ```
 
 ### Installing and deployment
@@ -42,39 +41,28 @@ $ git clone https://github.com/3Cement/Polls_App-Django
 ```
 TIME_ZONE = 'Europe/London'
 ```
-
-3. Install requirements:
-
-```
-$ pip install -r requirements.txt
-```
-
-4. Initialize database
+3. Initialize database
 
 ```
 $ python3 manage.py makemigrations
 $ python3 manage.py migrate
 ```
 
-5. Run mylibrary app (in folder with manage.py file):
+4. Run Polls App (in folder with manage.py file):
 
 ```
 $ python manage.py runserver
 ```
 ## Screenshots
 
-
-
 ## Running the tests
-
-
+```
+$ python manage.py test
+```
 
 ## Built With
 
-
-
 ## Contributing
-
 
 ## Authors
 
@@ -87,5 +75,3 @@ See also the list of [contributors](https://github.com/3Cement/Polls_App-Django/
 This project is licensed under the Apache License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-
-
